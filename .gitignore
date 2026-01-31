@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+data/
+tourism_project/data/
+*.csv
+
+# Model files
+*.json
+*.h5
+*.onnx
+*.joblib
+tourism_project/model_building/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hugging Face cache
+~/.cache/huggingface/
